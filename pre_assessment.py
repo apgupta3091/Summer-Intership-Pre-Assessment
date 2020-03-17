@@ -1,4 +1,4 @@
-#!/usr/bin
+#!/usr/bin/python3
 
 #from pprint import pprint
 def get_results(s1, s2):
