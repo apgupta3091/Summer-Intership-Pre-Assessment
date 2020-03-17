@@ -15,7 +15,7 @@ def get_results(s1, s2):
                 d[i] += 1
             else:
                 d[i]= 1
-        pprint(d)
+        #pprint(d)
         for key in d:
             if d[key]>0:
                 f.append(d[key])
@@ -24,12 +24,12 @@ def get_results(s1, s2):
                 e[i] += 1
             else:
                 e[i]= 1
-        pprint(e)
+        #pprint(e)
         for key in e:
             if e[key]>0:
                 g.append(e[key])
-        pprint(f)
-        pprint(g)
+        #pprint(f)
+        #pprint(g)
     return (len(f) >= len(g))
 ​
 if __name__ == "__main__":
