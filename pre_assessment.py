@@ -1,7 +1,7 @@
 #!/usr/bin
 
 #from pprint import pprint
-​
+
 def get_results(s1, s2):
     d= {}
     e= {}
@@ -31,7 +31,7 @@ def get_results(s1, s2):
         #pprint(f)
         #pprint(g)
     return (len(f) >= len(g))
-​
+
 if __name__ == "__main__":
     s1 = input ("Enter a string: ")
     s2 = input ("Enter a second string: ")
