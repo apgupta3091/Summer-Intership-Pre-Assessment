@@ -1,13 +1,18 @@
 #!/usr/bin/python3
 
 #from pprint import pprint
+# s1 and s2 are the two words
 def get_results(s1, s2):
+    #Initialize the following variables
     d= {}
     e= {}
     f=[]
     g=[]
+    
+    # If statement for if the length of s1 is not equal to s2
     if len(s1) != len(s2):
         return False
+    # elif checks each case to determine if the words are palindromes
     elif len(s1) == len(s2):
         for i in s1:
             if i in d:
